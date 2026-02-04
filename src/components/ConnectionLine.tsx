@@ -32,7 +32,7 @@ export function ConnectionLine({
             transition: {
                 duration: duration,
                 delay: delay,
-                ease: "easeInOut"
+                ease: "easeInOut" as const
             }
         },
         // For the "broken connection" effect in Step 1
@@ -42,7 +42,7 @@ export function ConnectionLine({
             transition: {
                 duration: duration,
                 delay: delay,
-                ease: "easeOut"
+                ease: "easeOut" as const
             }
         }
     };

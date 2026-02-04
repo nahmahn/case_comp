@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronRight, Zap } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 
 interface LayoutProps {
     children: ReactNode;
